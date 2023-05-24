@@ -8,7 +8,8 @@
   .projects__title {
     font-family: "Montserrat Alternates";
     text-align: center;
-    color: #0093E9; }
+    color: #C2E54F;
+    margin-top: 80px; }
   .projects__container {
     width: 90%;
     display: grid;
@@ -23,7 +24,7 @@
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
-      box-shadow: 0 0 10px #0093E9;
+      box-shadow: 0 0 10px #C2E54F;
       border-radius: 10px; }
       .projects__container__card-icon {
         height: 200px; }
@@ -38,7 +39,7 @@
         font-size: 16px;
         font-weight: 500;
         text-align: center; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     .projects__container {
       width: 100%;
       grid-template-columns: repeat(2, 1fr);

@@ -6,7 +6,7 @@ import './Main.css';
 const Main = () => {
   return (
     <main className="main">
-      <h1 className="main__title">Виготовлення виробів з <br /> <span> пластикових пляшок</span></h1>
+      <h1 className="main__title">Cинтетичні волокна їх значення застосування <br /> <span> у побуті та промисловості</span></h1>
 
       <p className="main__subtitle">Підготували</p>
 

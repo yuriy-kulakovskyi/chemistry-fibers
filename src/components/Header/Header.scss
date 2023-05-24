@@ -49,7 +49,7 @@
       @include flex(column, flex-start, center);
       padding: 1rem 2rem;
       transition: all .3s ease-in-out;
-      background-color: $thirdColor;
+      background-color: $mainColor;
 
       &__close {
         width: 100%;

@@ -14,8 +14,8 @@
     font-family: "Montserrat Alternates"; }
     .main__title span {
       font-family: "Montserrat Alternates";
-      text-shadow: 0 0 3px #0093E9;
-      color: #0093E9; }
+      text-shadow: 0 0 3px #C2E54F;
+      color: #C2E54F; }
   .main__subtitle {
     font-size: 20px;
     font-weight: 700;
@@ -25,10 +25,10 @@
   .main__typed {
     font-size: 24px;
     font-weight: 600;
-    color: #0093E9;
+    color: #C2E54F;
     margin-bottom: 20px; }
     .main__typed span {
       font-family: "Montserrat Alternates";
-      text-shadow: 0 0 2px #0093E9; }
+      text-shadow: 0 0 2px #C2E54F; }
 
 /*# sourceMappingURL=Main.css.map */

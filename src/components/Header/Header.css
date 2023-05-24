@@ -40,7 +40,7 @@
       align-items: center;
       padding: 1rem 2rem;
       transition: all .3s ease-in-out;
-      background-color: #0093E9; }
+      background-color: #C2E54F; }
       .header__nav__close {
         width: 100%;
         display: flex;
@@ -64,8 +64,8 @@
     .header__nav__list__item a {
       color: #333; }
       .header__nav__list__item a:hover {
-        color: #0093E9;
-        text-shadow: 0 0 3px #0093E9; }
+        color: #C2E54F;
+        text-shadow: 0 0 3px #C2E54F; }
     .header__toggle {
       display: none; } }
 

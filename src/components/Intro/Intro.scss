@@ -25,27 +25,29 @@
     &__card {
       width: 100%;
       padding: 10px 20px;
-      box-shadow: 0 0 5px $mainColor;
+      box-shadow: 0 0 10px $mainColor;
+      background-color: $mainColor;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
       gap: 10px;
 
       &__title {
-        font-size: 20px;
-        color: #333;
+        font-size: 24px;
+        color: #fff;
         font-family: "Montserrat Alternates";
       }
 
       &__description {
         font-size: 16px;
-        color: #333;
+        color: #fff;
         font-family: "Montserrat Alternates";
+        font-weight: 800;
       }
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     &__cards {
       grid-template-columns: repeat(2, 1fr);
     }

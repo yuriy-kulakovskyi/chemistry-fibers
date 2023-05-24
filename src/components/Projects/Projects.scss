@@ -9,6 +9,7 @@
     font-family: "Montserrat Alternates";
     text-align: center;
     color: $mainColor;
+    margin-top: 80px;
   }
 
   &__container {
@@ -46,7 +47,7 @@
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     &__container {
       width: 100%;
       grid-template-columns: repeat(2, 1fr);

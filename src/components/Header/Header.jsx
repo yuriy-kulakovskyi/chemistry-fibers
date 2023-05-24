@@ -11,7 +11,7 @@ const navItems = [
   },
 
   {
-    name: "Вступ",
+    name: "Факти",
     link: "#intro"
   },
 
@@ -50,7 +50,7 @@ const Header = () => {
       </nav>
 
       {/* Header toggle */}
-      <svg className='header__toggle' onClick={() => setNavOpen(true)} xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" stroke="#0093E9"><rect width="8" height="8" x="2.5" y="2.5" rx="2"></rect><rect width="8" height="8" x="13.5" y="2.5" rx="2"></rect><rect width="8" height="8" x="2.5" y="13.5" rx="2"></rect><rect width="8" height="8" x="13.5" y="13.5" rx="2"></rect></g></svg>
+      <svg className='header__toggle' onClick={() => setNavOpen(true)} xmlns="http://www.w3.org/2000/svg" width="24" height="24"><g fill="none" stroke="#C2E54F"><rect width="8" height="8" x="2.5" y="2.5" rx="2"></rect><rect width="8" height="8" x="13.5" y="2.5" rx="2"></rect><rect width="8" height="8" x="2.5" y="13.5" rx="2"></rect><rect width="8" height="8" x="13.5" y="13.5" rx="2"></rect></g></svg>
     </header>
   );
 }
